@@ -1,0 +1,78 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Salad Monitoring System - Server",
+    "version": "1.0"
+  },
+  "paths": {
+    "/": {
+      "get": {
+        "tags": [
+          "Salad Monitoring System - Server"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/api/v1/getConnectedClients": {
+      "get": {
+        "tags": [
+          "Salad Monitoring System - Server"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/SaladClient"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "SaladClient": {
+        "required": [
+          "clientName"
+        ],
+        "type": "object",
+        "properties": {
+          "clientUUID": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "clientName": {
+            "type": "string",
+            "nullable": true
+          },
+          "internUUID": {
+            "type": "string",
+            "format": "uuid",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "tags": [
+    {
+      "name": "Salad Monitoring System - Server"
+    }
+  ]
+}

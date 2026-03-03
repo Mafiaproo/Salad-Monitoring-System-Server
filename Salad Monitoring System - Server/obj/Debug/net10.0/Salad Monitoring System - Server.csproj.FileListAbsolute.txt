@@ -1,0 +1,49 @@
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\appsettings.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.staticwebassets.endpoints.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.exe
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.deps.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.runtimeconfig.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Salad Monitoring System - Server.pdb
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.AssemblyInfoInputs.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.AssemblyInfo.cs
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.csproj.CoreCompileInputs.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\scopedcss\bundle\Salad Monitoring System - Server.styles.css
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\refint\Salad Monitoring System - Server.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.pdb
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.genruntimeconfig.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\ref\Salad Monitoring System - Server.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\websocket-sharp.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.csproj.AssemblyReference.cache
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Mo.BB0F6E8C.Up2Date
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\System.Net.Http.Formatting.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\System.Web.Http.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\System.Web.Http.WebHost.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Microsoft.Web.Infrastructure.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Swashbuckle.Core.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\WebActivatorEx.dll
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.MvcApplicationPartsAssemblyInfo.cs
