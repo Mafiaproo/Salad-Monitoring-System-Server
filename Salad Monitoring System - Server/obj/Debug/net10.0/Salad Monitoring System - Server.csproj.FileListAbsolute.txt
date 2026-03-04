@@ -47,3 +47,5 @@ C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring Sy
 C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\Swashbuckle.Core.dll
 C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\WebActivatorEx.dll
 C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\obj\Debug\net10.0\Salad Monitoring System - Server.sourcelink.json
+C:\Users\gamer\source\repos\Salad Monitoring System - Server\Salad Monitoring System - Server\bin\Debug\net10.0\MySqlConnector.dll

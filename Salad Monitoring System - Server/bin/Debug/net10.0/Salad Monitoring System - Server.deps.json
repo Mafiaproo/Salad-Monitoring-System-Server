@@ -10,7 +10,8 @@
         "dependencies": {
           "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": "10.0.3",
           "Microsoft.EntityFrameworkCore.InMemory": "10.0.3",
-          "Swashbuckle": "5.6.0",
+          "MySqlConnector": "2.5.0",
+          "Swashbuckle": "5.5.3",
           "Swashbuckle.AspNetCore.Swagger": "10.1.4",
           "Swashbuckle.AspNetCore.SwaggerGen": "10.1.4",
           "Swashbuckle.AspNetCore.SwaggerUI": "10.1.4",
@@ -22,7 +23,7 @@
       },
       "Microsoft.AspNet.WebApi.Client/4.0.20710": {
         "dependencies": {
-          "Newtonsoft.Json": "7.0.1"
+          "Newtonsoft.Json": "4.5.6"
         },
         "runtime": {
           "lib/net40/System.Net.Http.Formatting.dll": {
@@ -122,18 +123,26 @@
           }
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "MySqlConnector/2.5.0": {
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {
-            "assemblyVersion": "7.0.0.0",
-            "fileVersion": "7.0.1.18622"
+          "lib/net10.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.5.0.0"
           }
         }
       },
-      "Swashbuckle/5.6.0": {
+      "Newtonsoft.Json/4.5.6": {
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "assemblyVersion": "4.5.0.0",
+            "fileVersion": "4.5.6.14930"
+          }
+        }
+      },
+      "Swashbuckle/5.5.3": {
         "dependencies": {
           "Microsoft.AspNet.WebApi.WebHost": "4.0.20710",
-          "Swashbuckle.Core": "5.6.0",
+          "Swashbuckle.Core": "5.5.3",
           "WebActivatorEx": "2.0.0"
         }
       },
@@ -167,10 +176,9 @@
           }
         }
       },
-      "Swashbuckle.Core/5.6.0": {
+      "Swashbuckle.Core/5.5.3": {
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "4.0.20710",
-          "Newtonsoft.Json": "7.0.1"
+          "Microsoft.AspNet.WebApi.Core": "4.0.20710"
         },
         "runtime": {
           "lib/net40/Swashbuckle.Core.dll": {
@@ -276,19 +284,26 @@
       "path": "microsoft.web.infrastructure/1.0.0",
       "hashPath": "microsoft.web.infrastructure.1.0.0.nupkg.sha512"
     },
-    "Newtonsoft.Json/7.0.1": {
+    "MySqlConnector/2.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
-      "path": "newtonsoft.json/7.0.1",
-      "hashPath": "newtonsoft.json.7.0.1.nupkg.sha512"
+      "sha512": "sha512-hoAwfHHF8DlRRqwHOhN3u1KLi+XbX/4LPS7Anfa+SYC97vRyIfdEOEEfj1L50q01Ik8aDNvmDrNmu/VPFiAiaQ==",
+      "path": "mysqlconnector/2.5.0",
+      "hashPath": "mysqlconnector.2.5.0.nupkg.sha512"
     },
-    "Swashbuckle/5.6.0": {
+    "Newtonsoft.Json/4.5.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-UAE91ynpgvwoUs8igq3k/D0HV+cHrGRGJR9cwIPGE08hHJenn24MR2vq1n6NYbDWEwAVm+RYUW+qIsO9p5Sn/Q==",
-      "path": "swashbuckle/5.6.0",
-      "hashPath": "swashbuckle.5.6.0.nupkg.sha512"
+      "sha512": "sha512-cvZjgllAF/w46KccFZncp0x4yIEceJwPlCTPEBjAPNbAvJXmMCIdGvQa1a8n7YKZ2yV9I1H1IZagwRG+gEbUxQ==",
+      "path": "newtonsoft.json/4.5.6",
+      "hashPath": "newtonsoft.json.4.5.6.nupkg.sha512"
+    },
+    "Swashbuckle/5.5.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-kaDSkp5iKumU6MYF/N1B0gB/eZRl5HmL4UWgZvZHTkh7JSzk+WwVFv+J7dmk0YHPHu2nPy5wl6ue8anwPBMxLQ==",
+      "path": "swashbuckle/5.5.3",
+      "hashPath": "swashbuckle.5.5.3.nupkg.sha512"
     },
     "Swashbuckle.AspNetCore.Swagger/10.1.4": {
       "type": "package",
@@ -311,12 +326,12 @@
       "path": "swashbuckle.aspnetcore.swaggerui/10.1.4",
       "hashPath": "swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512"
     },
-    "Swashbuckle.Core/5.6.0": {
+    "Swashbuckle.Core/5.5.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GhVWgtB8hCOxQhx7zLiiRyoi6flm7fNDDGILYHWktxLMkykRUz90fhmLRZECmnbvCcepFyROiw3phS1XorhdDg==",
-      "path": "swashbuckle.core/5.6.0",
-      "hashPath": "swashbuckle.core.5.6.0.nupkg.sha512"
+      "sha512": "sha512-ok6OKD/oICtk40jXyV832GYO6xVdhDBRVR6ThruaTFC2E6swj3QgZn+oMFmCXMnbRxBX3WPIgVGLS8XThygx1w==",
+      "path": "swashbuckle.core/5.5.3",
+      "hashPath": "swashbuckle.core.5.5.3.nupkg.sha512"
     },
     "WebActivatorEx/2.0.0": {
       "type": "package",

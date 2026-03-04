@@ -3,7 +3,7 @@ using System.Text.Json.Nodes;
 using WebSocketSharp;
 using WebSocketSharp.Server;
 
-
+var mysqlserver = new SmsApiFunctions("localhost", "3306", "root", "azTy23pm");
 
 var builder = WebApplication.CreateBuilder(args);
 

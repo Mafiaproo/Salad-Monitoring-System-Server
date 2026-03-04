@@ -177,25 +177,38 @@
           "lib/net40/Microsoft.Web.Infrastructure.dll": {}
         }
       },
-      "Newtonsoft.Json/7.0.1": {
+      "MySqlConnector/2.5.0": {
         "type": "package",
         "compile": {
-          "lib/net45/Newtonsoft.Json.dll": {
+          "lib/net10.0/MySqlConnector.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net45/Newtonsoft.Json.dll": {
+          "lib/net10.0/MySqlConnector.dll": {
             "related": ".xml"
           }
         }
       },
-      "Swashbuckle/5.6.0": {
+      "Newtonsoft.Json/4.5.6": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Swashbuckle/5.5.3": {
         "type": "package",
         "dependencies": {
           "Microsoft.AspNet.WebApi.WebHost": "4.0.20710",
-          "Swashbuckle.Core": "5.6.0",
-          "WebActivatorEx": "2.0.0"
+          "Swashbuckle.Core": "5.5.3",
+          "WebActivatorEx": "(, )"
         }
       },
       "Swashbuckle.AspNetCore.Swagger/10.1.4": {
@@ -249,11 +262,10 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "Swashbuckle.Core/5.6.0": {
+      "Swashbuckle.Core/5.5.3": {
         "type": "package",
         "dependencies": {
-          "Microsoft.AspNet.WebApi.Core": "4.0.20710",
-          "Newtonsoft.Json": "7.0.1"
+          "Microsoft.AspNet.WebApi.Core": "4.0.20710"
         },
         "compile": {
           "lib/net40/Swashbuckle.Core.dll": {}
@@ -547,11 +559,41 @@
         "microsoft.web.infrastructure.nuspec"
       ]
     },
-    "Newtonsoft.Json/7.0.1": {
-      "sha512": "q3V4KLetMLnt1gpAVWgtXnHjKs0UG/RalBc29u2ZKxd5t5Ze4JBL5WiiYIklJyK/5CRiIiNwigVQUo0FgbsuWA==",
+    "MySqlConnector/2.5.0": {
+      "sha512": "hoAwfHHF8DlRRqwHOhN3u1KLi+XbX/4LPS7Anfa+SYC97vRyIfdEOEEfj1L50q01Ik8aDNvmDrNmu/VPFiAiaQ==",
       "type": "package",
-      "path": "newtonsoft.json/7.0.1",
-      "hasTools": true,
+      "path": "mysqlconnector/2.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net10.0/MySqlConnector.dll",
+        "lib/net10.0/MySqlConnector.xml",
+        "lib/net462/MySqlConnector.dll",
+        "lib/net462/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net48/MySqlConnector.dll",
+        "lib/net48/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/net8.0/MySqlConnector.dll",
+        "lib/net8.0/MySqlConnector.xml",
+        "lib/net9.0/MySqlConnector.dll",
+        "lib/net9.0/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.5.0.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/4.5.6": {
+      "sha512": "cvZjgllAF/w46KccFZncp0x4yIEceJwPlCTPEBjAPNbAvJXmMCIdGvQa1a8n7YKZ2yV9I1H1IZagwRG+gEbUxQ==",
+      "type": "package",
+      "path": "newtonsoft.json/4.5.6",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -561,26 +603,27 @@
         "lib/net35/Newtonsoft.Json.xml",
         "lib/net40/Newtonsoft.Json.dll",
         "lib/net40/Newtonsoft.Json.xml",
-        "lib/net45/Newtonsoft.Json.dll",
-        "lib/net45/Newtonsoft.Json.xml",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
-        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.dll",
-        "lib/portable-net45+wp80+win8+wpa81+dnxcore50/Newtonsoft.Json.xml",
-        "newtonsoft.json.7.0.1.nupkg.sha512",
-        "newtonsoft.json.nuspec",
-        "tools/install.ps1"
+        "lib/sl3-wp/Newtonsoft.Json.dll",
+        "lib/sl3-wp/Newtonsoft.Json.xml",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.dll",
+        "lib/sl4-windowsphone71/Newtonsoft.Json.xml",
+        "lib/sl4/Newtonsoft.Json.dll",
+        "lib/sl4/Newtonsoft.Json.xml",
+        "lib/winrt45/Newtonsoft.Json.dll",
+        "lib/winrt45/Newtonsoft.Json.xml",
+        "newtonsoft.json.4.5.6.nupkg.sha512",
+        "newtonsoft.json.nuspec"
       ]
     },
-    "Swashbuckle/5.6.0": {
-      "sha512": "UAE91ynpgvwoUs8igq3k/D0HV+cHrGRGJR9cwIPGE08hHJenn24MR2vq1n6NYbDWEwAVm+RYUW+qIsO9p5Sn/Q==",
+    "Swashbuckle/5.5.3": {
+      "sha512": "kaDSkp5iKumU6MYF/N1B0gB/eZRl5HmL4UWgZvZHTkh7JSzk+WwVFv+J7dmk0YHPHu2nPy5wl6ue8anwPBMxLQ==",
       "type": "package",
-      "path": "swashbuckle/5.6.0",
+      "path": "swashbuckle/5.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Content/App_Start/SwaggerConfig.cs.pp",
-        "swashbuckle.5.6.0.nupkg.sha512",
+        "swashbuckle.5.5.3.nupkg.sha512",
         "swashbuckle.nuspec"
       ]
     },
@@ -647,15 +690,15 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "Swashbuckle.Core/5.6.0": {
-      "sha512": "GhVWgtB8hCOxQhx7zLiiRyoi6flm7fNDDGILYHWktxLMkykRUz90fhmLRZECmnbvCcepFyROiw3phS1XorhdDg==",
+    "Swashbuckle.Core/5.5.3": {
+      "sha512": "ok6OKD/oICtk40jXyV832GYO6xVdhDBRVR6ThruaTFC2E6swj3QgZn+oMFmCXMnbRxBX3WPIgVGLS8XThygx1w==",
       "type": "package",
-      "path": "swashbuckle.core/5.6.0",
+      "path": "swashbuckle.core/5.5.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net40/Swashbuckle.Core.dll",
-        "swashbuckle.core.5.6.0.nupkg.sha512",
+        "swashbuckle.core.5.5.3.nupkg.sha512",
         "swashbuckle.core.nuspec"
       ]
     },
@@ -694,7 +737,8 @@
       "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore >= 10.0.3",
       "Microsoft.EntityFrameworkCore.InMemory >= 10.0.3",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.23.0",
-      "Swashbuckle >= 5.6.0",
+      "MySqlConnector >= 2.5.0",
+      "Swashbuckle >= 5.5.3",
       "Swashbuckle.AspNetCore.Swagger >= 10.1.4",
       "Swashbuckle.AspNetCore.SwaggerGen >= 10.1.4",
       "Swashbuckle.AspNetCore.SwaggerUI >= 10.1.4",
@@ -763,9 +807,13 @@
             "target": "Package",
             "version": "[1.23.0, )"
           },
+          "MySqlConnector": {
+            "target": "Package",
+            "version": "[2.5.0, )"
+          },
           "Swashbuckle": {
             "target": "Package",
-            "version": "[5.6.0, )"
+            "version": "[5.5.3, )"
           },
           "Swashbuckle.AspNetCore.Swagger": {
             "target": "Package",
@@ -1223,10 +1271,20 @@
   },
   "logs": [
     {
+      "code": "NU1602",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Swashbuckle 5.5.3 ne fournit pas de limite inférieure inclusive pour la dépendance WebActivatorEx. WebActivatorEx 2.0.0 a été résolu à la place",
+      "libraryId": "WebActivatorEx",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
       "code": "NU1903",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'Newtonsoft.Json' 7.0.1 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-5crp-9r3c-p9vr.",
+      "message": "Le package 'Newtonsoft.Json' 4.5.6 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-5crp-9r3c-p9vr.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net10.0"
@@ -1286,7 +1344,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'Newtonsoft.Json 7.0.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Le package 'Newtonsoft.Json 4.5.6' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "Newtonsoft.Json",
       "targetGraphs": [
         "net10.0"
@@ -1296,7 +1354,7 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Le package 'Swashbuckle.Core 5.6.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Le package 'Swashbuckle.Core 5.5.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "libraryId": "Swashbuckle.Core",
       "targetGraphs": [
         "net10.0"

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "EDSzl60Jj0A=",
+  "dgSpecHash": "Zxgkv1ZlNxA=",
   "success": true,
   "projectFilePath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
   "expectedPackageFiles": [
@@ -17,20 +17,33 @@
     "C:\\Users\\gamer\\.nuget\\packages\\microsoft.openapi\\2.4.1\\microsoft.openapi.2.4.1.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.23.0\\microsoft.visualstudio.azure.containers.tools.targets.1.23.0.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
-    "C:\\Users\\gamer\\.nuget\\packages\\newtonsoft.json\\7.0.1\\newtonsoft.json.7.0.1.nupkg.sha512",
-    "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle\\5.6.0\\swashbuckle.5.6.0.nupkg.sha512",
+    "C:\\Users\\gamer\\.nuget\\packages\\mysqlconnector\\2.5.0\\mysqlconnector.2.5.0.nupkg.sha512",
+    "C:\\Users\\gamer\\.nuget\\packages\\newtonsoft.json\\4.5.6\\newtonsoft.json.4.5.6.nupkg.sha512",
+    "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle\\5.5.3\\swashbuckle.5.5.3.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.1.4\\swashbuckle.aspnetcore.swagger.10.1.4.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.1.4\\swashbuckle.aspnetcore.swaggergen.10.1.4.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.1.4\\swashbuckle.aspnetcore.swaggerui.10.1.4.nupkg.sha512",
-    "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle.core\\5.6.0\\swashbuckle.core.5.6.0.nupkg.sha512",
+    "C:\\Users\\gamer\\.nuget\\packages\\swashbuckle.core\\5.5.3\\swashbuckle.core.5.5.3.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\webactivatorex\\2.0.0\\webactivatorex.2.0.0.nupkg.sha512",
     "C:\\Users\\gamer\\.nuget\\packages\\websocketsharp-netstandard\\1.0.1\\websocketsharp-netstandard.1.0.1.nupkg.sha512"
   ],
   "logs": [
     {
+      "code": "NU1602",
+      "level": "Warning",
+      "message": "Swashbuckle 5.5.3 ne fournit pas de limite inférieure inclusive pour la dépendance WebActivatorEx. WebActivatorEx 2.0.0 a été résolu à la place",
+      "projectPath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
+      "libraryId": "WebActivatorEx",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
       "code": "NU1903",
       "level": "Warning",
-      "message": "Le package 'Newtonsoft.Json' 7.0.1 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-5crp-9r3c-p9vr.",
+      "message": "Le package 'Newtonsoft.Json' 4.5.6 présente une vulnérabilité de gravité élevé(e) connue, https://github.com/advisories/GHSA-5crp-9r3c-p9vr.",
       "projectPath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
@@ -102,7 +115,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Le package 'Newtonsoft.Json 7.0.1' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Le package 'Newtonsoft.Json 4.5.6' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "projectPath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
@@ -114,7 +127,7 @@
     {
       "code": "NU1701",
       "level": "Warning",
-      "message": "Le package 'Swashbuckle.Core 5.6.0' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
+      "message": "Le package 'Swashbuckle.Core 5.5.3' a été restauré en utilisant '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' au lieu du framework cible du projet 'net10.0'. Ce package n'est peut-être pas totalement compatible avec votre projet.",
       "projectPath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
       "warningLevel": 1,
       "filePath": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj",
