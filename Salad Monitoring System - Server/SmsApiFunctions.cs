@@ -85,6 +85,13 @@ namespace Salad_Monitoring_System___Server
 
                     reader.Close();
 
+                    Console.WriteLine("[INFO] Setup Tables ...");
+                    MySqlCommand setupDbCmd = new MySqlCommand(File.ReadAllText("./DB_CONFIG.sql"), mySqlConnection);
+                    reader = setupDbCmd.ExecuteReader();
+                    Console.WriteLine("[INFO] Tables are Setup ...");
+
+                    reader.Close();
+
                     Console.WriteLine("[WARN] SMSDb has been created succesfuly !");
                 }
                 catch (MySqlException e)
@@ -94,6 +101,37 @@ namespace Salad_Monitoring_System___Server
                 }
             }
 
+
+
+        }
+
+        public SaladClient GetClientByUuid(Guid uuid)
+        {
+            SaladClient client = new SaladClient(uuid) { ClientName = " Test Client" };
+
+            return client;
+        }
+
+        public SaladClient[] GetConnectedClients()
+        {
+            SaladClient[] saladClients = { };
+            MySqlCommand allClientsCommand = new MySqlCommand("USE SMSDb; SELECT * FROM clients;", mySqlConnection);
+
+            var reader = allClientsCommand.ExecuteReader();
+
+            if(!reader.HasRows)
+            {
+                return saladClients;
+            }
+
+            while(reader.Read())
+            {
+                reader.GetValues(saladClients);
+            }
+
+            reader.Close();
+
+            return saladClients;
         }
 
     }

@@ -3,13 +3,20 @@
     public class SaladClient
     {
         public Guid ClientUUID { get; set; }
-        public required string ClientName { get; set; }
-        public Guid InternUUID { get; private set; }
+        public string ClientName { get; set; }
+        public string InternUUID { get; private set; }
 
-        public SaladClient(Guid iUUID)
+        public DateTime LastSeen { get; set; }
+
+        public string Status { get; set; }
+
+        public SaladClient(Guid iUUID, string name = "Salad Client", string status = "Unknown")
         {
+            ClientName = name;
             ClientUUID = Guid.CreateVersion7();
-            InternUUID = iUUID;
+            InternUUID = iUUID.ToString();
+            LastSeen = DateTime.Now;
+            Status = status;
         }
 
     }

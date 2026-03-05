@@ -20,6 +20,30 @@
   {
     "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
     "Method": "\u003C\u003CMain\u003E$\u003Eb__1",
+    "RelativePath": "api/v1/getClient/{uuid}",
+    "HttpMethod": "GET",
+    "IsController": false,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uuid",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Salad_Monitoring_System___Server.SaladClient",
+        "MediaTypes": [
+          "application/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Program\u002B\u003C\u003Ec__DisplayClass0_0",
+    "Method": "\u003C\u003CMain\u003E$\u003Eb__2",
     "RelativePath": "api/v1/getConnectedClients",
     "HttpMethod": "GET",
     "IsController": false,
@@ -27,7 +51,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Salad_Monitoring_System___Server.SaladClient",
+        "Type": "Salad_Monitoring_System___Server.SaladClient[]",
         "MediaTypes": [
           "application/json"
         ],

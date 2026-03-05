@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\smsapifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|c:\\users\\gamer\\source\\repos\\salad monitoring system - server\\salad monitoring system - server\\db_config.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\db_config.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|c:\\users\\gamer\\source\\repos\\salad monitoring system - server\\salad monitoring system - server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,8 +19,8 @@
       "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\saladclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|c:\\users\\gamer\\source\\repos\\salad monitoring system - server\\salad monitoring system - server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|c:\\users\\gamer\\source\\repos\\salad monitoring system - server\\salad monitoring system - server\\db_config.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{7D0BDCE7-0387-2536-7467-D380581CD5A6}|Salad Monitoring System - Server\\Salad Monitoring System - Server.csproj|solutionrelative:salad monitoring system - server\\db_config.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,15 +34,15 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Salad Monitoring System - Server\\Properties\\launchSettings.json",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Salad Monitoring System - Server\\Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-04T19:51:06.844Z",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Program.cs",
+              "RelativeDocumentMoniker": "Salad Monitoring System - Server\\Program.cs",
+              "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Program.cs",
+              "RelativeToolTip": "Salad Monitoring System - Server\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-03T18:56:13.426Z",
               "EditorCaption": ""
             },
             {
@@ -49,20 +53,20 @@
               "RelativeDocumentMoniker": "Salad Monitoring System - Server\\SmsApiFunctions.cs",
               "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\SmsApiFunctions.cs",
               "RelativeToolTip": "Salad Monitoring System - Server\\SmsApiFunctions.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAjwFEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAGcAAAAAAAAAAAAIwHkAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-04T19:35:45.131Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "SaladClient.cs",
               "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\SaladClient.cs",
               "RelativeDocumentMoniker": "Salad Monitoring System - Server\\SaladClient.cs",
               "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\SaladClient.cs",
               "RelativeToolTip": "Salad Monitoring System - Server\\SaladClient.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-03T19:36:59.673Z",
               "EditorCaption": ""
@@ -70,14 +74,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Program.cs",
-              "RelativeDocumentMoniker": "Salad Monitoring System - Server\\Program.cs",
-              "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\Program.cs",
-              "RelativeToolTip": "Salad Monitoring System - Server\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-03T18:56:13.426Z",
+              "Title": "DB_CONFIG.sql ",
+              "DocumentMoniker": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\DB_CONFIG.sql",
+              "RelativeDocumentMoniker": "Salad Monitoring System - Server\\DB_CONFIG.sql",
+              "ToolTip": "C:\\Users\\gamer\\source\\repos\\Salad Monitoring System - Server\\Salad Monitoring System - Server\\DB_CONFIG.sql",
+              "RelativeToolTip": "Salad Monitoring System - Server\\DB_CONFIG.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-03-05T19:44:53.845Z",
               "EditorCaption": ""
             }
           ]

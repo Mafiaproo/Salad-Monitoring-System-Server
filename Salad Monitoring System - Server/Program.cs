@@ -22,11 +22,13 @@ app.UseHttpsRedirection();
 
 app.MapGet("/", () => "Oh, I see that you found the SMS API :) ");
 
+app.MapGet("/api/v1/getClient/{uuid}", (Guid uuid) => mysqlserver.GetClientByUuid(uuid));
+
 SaladClient client = new SaladClient(Guid.CreateVersion7())
 {
     ClientName = "Salad-1"
 };
 
-app.MapGet("/api/v1/getConnectedClients", () => client);
+app.MapGet("/api/v1/getConnectedClients", () => mysqlserver.GetConnectedClients());
 
 app.Run();

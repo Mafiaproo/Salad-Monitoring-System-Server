@@ -24,10 +24,21 @@
         }
       }
     },
-    "/api/v1/getConnectedClients": {
+    "/api/v1/getClient/{uuid}": {
       "get": {
         "tags": [
           "Salad Monitoring System - Server"
+        ],
+        "parameters": [
+          {
+            "name": "uuid",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string",
+              "format": "uuid"
+            }
+          }
         ],
         "responses": {
           "200": {
@@ -42,14 +53,33 @@
           }
         }
       }
+    },
+    "/api/v1/getConnectedClients": {
+      "get": {
+        "tags": [
+          "Salad Monitoring System - Server"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "#/components/schemas/SaladClient"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
     }
   },
   "components": {
     "schemas": {
       "SaladClient": {
-        "required": [
-          "clientName"
-        ],
         "type": "object",
         "properties": {
           "clientUUID": {
@@ -62,8 +92,16 @@
           },
           "internUUID": {
             "type": "string",
-            "format": "uuid",
+            "nullable": true,
             "readOnly": true
+          },
+          "lastSeen": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
