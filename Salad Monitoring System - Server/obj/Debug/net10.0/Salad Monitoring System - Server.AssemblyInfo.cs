@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Salad Monitoring System - Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6381de12c65be517bd2e06d3d8d789e5509ed3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9537b6a0533277d0d9feb15d471b1583ee271d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Salad Monitoring System - Server")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Salad Monitoring System - Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

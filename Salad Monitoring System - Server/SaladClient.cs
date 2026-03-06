@@ -10,12 +10,12 @@
 
         public string Status { get; set; }
 
-        public SaladClient(Guid iUUID, string name = "Salad Client", string status = "Unknown")
+        public SaladClient(Guid iUUID, DateTime time, string name = "Salad Client", string status = "Unknown")
         {
             ClientName = name;
             ClientUUID = Guid.CreateVersion7();
             InternUUID = iUUID.ToString();
-            LastSeen = DateTime.Now;
+            LastSeen = time;
             Status = status;
         }
 
