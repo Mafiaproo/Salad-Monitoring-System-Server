@@ -39,16 +39,16 @@ namespace Salad_Monitoring_System___Server
             {
                 try
                 {
-                    Console.WriteLine("[INFO] Connecting to Database...");
+                    Logging.LogInfo("Connecting to Database...");
                     mySqlConnection.Open();
-                    Console.WriteLine("[INFO] Connected to Database !");
+                    Logging.LogInfo("Connected to Database !");
                 }
                 catch (MySqlException e)
                 {
                     Console.WriteLine($"[WARN] An Error has been occured during the connection to the database. Retrying {cpt-5}/4 !\nException : " + e.ToString());
                     if (cpt <= 0)
                     {
-                        Console.WriteLine("[ERROR] SMS can't connect to the database. Ending Server!"); 
+                        Logging.LogError("SMS can't connect to the database. Ending Server!"); 
                         Environment.Exit(1);
                     }
                     else cpt--;
@@ -66,7 +66,7 @@ namespace Salad_Monitoring_System___Server
                 if (reader.GetString(0) == DBNAME)
                 {
                     isCreated = true;
-                    Console.WriteLine("[INFO] SMSDb exist.");
+                    Logging.LogInfo("SMSDb exist.");
                 }
             }
 
@@ -79,21 +79,21 @@ namespace Salad_Monitoring_System___Server
                 
                 try
                 {
-                    Console.WriteLine("[WARN] SMSDb is not created. Creating Database...");
+                    Logging.LogWarn("SMSDb is not created. Creating Database...");
 
                     MySqlCommand createDbCmd = new MySqlCommand($"CREATE DATABASE {DBNAME};", mySqlConnection);
                     reader = createDbCmd.ExecuteReader();
 
                     reader.Close();
 
-                    Console.WriteLine("[INFO] Setup Tables ...");
+                    Logging.LogInfo("Setup Tables ...");
                     MySqlCommand setupDbCmd = new MySqlCommand(File.ReadAllText("./DB_CONFIG.sql"), mySqlConnection);
                     reader = setupDbCmd.ExecuteReader();
-                    Console.WriteLine("[INFO] Tables are Setup ...");
+                    Logging.LogInfo("Tables are Setup ...");
 
                     reader.Close();
 
-                    Console.WriteLine("[WARN] SMSDb has been created succesfuly !");
+                    Logging.LogWarn("SMSDb has been created succesfuly !");
                 }
                 catch (MySqlException e)
                 {
@@ -108,7 +108,7 @@ namespace Salad_Monitoring_System___Server
 
         public SaladClient GetClientByUuid(Guid uuid)
         {
-            SaladClient client = new SaladClient(uuid, DateTime.Now);
+            SaladClient client = new SaladClient(uuid, DateTime.Now, "192.168.2.100");
 
             return client;
         }
@@ -129,7 +129,7 @@ namespace Salad_Monitoring_System___Server
             while (reader.Read())
             {
                 // UUID DATETIME NOM STATUS
-                SaladClient client = new SaladClient(reader.GetGuid(0), reader.GetDateTime(3), reader.GetString(1), reader.GetString(4));
+                SaladClient client = new SaladClient(reader.GetGuid(0), reader.GetDateTime(3), reader.GetString(5), reader.GetString(1), reader.GetString(4));
 
 
                 clients.Add(client);
@@ -138,9 +138,9 @@ namespace Salad_Monitoring_System___Server
             return clients.ToArray();
         }
 
-        public SaladClient CreateClient(Guid iUUID, Guid internalUUID, string name, string status)
+        public SaladClient CreateClient(Guid iUUID, Guid internalUUID, string name, string status, string ipaddress)
         {
-            SaladClient newClient = new SaladClient(iUUID, DateTime.Now, name, status);
+            SaladClient newClient = new SaladClient(iUUID, DateTime.Now, ipaddress, name, status);
 
             using MySqlConnection connection = new MySqlConnection(
                 $"Server={_host};Port={_port};User={_username};Password={_password};Database=SMSDb"
@@ -149,17 +149,91 @@ namespace Salad_Monitoring_System___Server
             connection.Open();
 
             using MySqlCommand command = new MySqlCommand(
-                $"INSERT INTO clients VALUES(\"{iUUID.ToString()}\"," +
+                $"INSERT IGNORE INTO clients VALUES(\"{iUUID.ToString()}\"," +
                 $" \"{name}\"," +
                 $" \"{internalUUID.ToString()}\"," +
                 $" \"{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}\"," +
-                $" \"{status}\");", connection);
+                $" \"{status}\"," +
+                $" \"{ipaddress}\");", connection);
 
             using var reader = command.ExecuteReader();
 
             reader.Close();
 
             return newClient;
+
+        }
+
+        /*
+         Add Client on database and return created client as a SaladClient instance
+         */
+        public SaladClient CreateClient(SaladClient client)
+        {
+            using MySqlConnection connection = new MySqlConnection(
+                $"Server={_host};Port={_port};User={_username};Password={_password};Database=SMSDb"
+            );
+
+            connection.Open();
+
+            using MySqlCommand command = new MySqlCommand(
+                $"INSERT IGNORE INTO clients VALUES(\"{client.ClientUUID.ToString()}\"," +
+                $" \"{client.ClientName}\"," +
+                $" \"{client.InternUUID.ToString()}\"," +
+                $" \"{DateTime.Now.ToString("yyyy/MM/dd HH:mm:ss")}\"," +
+                $" \"{client.Status}\"," +
+                $" \"{client.IpAddress}\");", connection);
+
+            using var reader = command.ExecuteReader();
+
+            reader.Close();
+
+            return client;
+
+        }
+
+        public void DeleteClient(Guid uuid)
+        {
+            using MySqlConnection connection = new MySqlConnection(
+                $"Server={_host};Port={_port};User={_username};Password={_password};Database=SMSDb"
+            );
+
+            connection.Open();
+
+            try
+            {
+                using MySqlCommand commandDelete = new MySqlCommand($"USE SMSDb; DELETE FROM clients WHERE uuid=\"{uuid.ToString()}\";", connection);
+                using var reader = commandDelete.ExecuteReader();
+
+                reader.Close();
+            }
+            catch (MySqlException e)
+            {
+                Console.WriteLine($"[WARN] Can't delete client with uuid {uuid.ToString()} ! \nException : " + e.ToString());
+            }
+
+
+        }
+
+        public void DeleteClientByIp(string ip)
+        {
+            using MySqlConnection connection = new MySqlConnection(
+                $"Server={_host};Port={_port};User={_username};Password={_password};Database=SMSDb"
+            );
+
+            connection.Open();
+
+            try
+            {
+                using MySqlCommand commandDelete = new MySqlCommand($"USE SMSDb; DELETE FROM clients WHERE ip_address=\"{ip}\";", connection);
+                using var reader = commandDelete.ExecuteReader();
+
+                reader.Close();
+            }
+            catch (MySqlException e)
+            {
+                Console.WriteLine($"[WARN] Can't delete client with IP {ip} ! \nException : " + e.ToString());
+            }
+
 
         }
 

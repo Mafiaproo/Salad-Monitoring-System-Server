@@ -52,11 +52,11 @@
           "dependencies": {
             "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[10.0.3, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
-              "version": "[10.0.3, )"
+              "version": "[10.0.5, )"
             },
             "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
               "target": "Package",
@@ -68,19 +68,23 @@
             },
             "Swashbuckle": {
               "target": "Package",
-              "version": "[5.5.3, )"
+              "version": "[5.6.0, )"
             },
             "Swashbuckle.AspNetCore.Swagger": {
               "target": "Package",
-              "version": "[10.1.4, )"
+              "version": "[10.1.5, )"
             },
             "Swashbuckle.AspNetCore.SwaggerGen": {
               "target": "Package",
-              "version": "[10.1.4, )"
+              "version": "[10.1.5, )"
             },
             "Swashbuckle.AspNetCore.SwaggerUI": {
               "target": "Package",
-              "version": "[10.1.4, )"
+              "version": "[10.1.5, )"
+            },
+            "System.Diagnostics.PerformanceCounter": {
+              "target": "Package",
+              "version": "[10.0.5, )"
             },
             "WebSocketSharp-netstandard": {
               "target": "Package",

@@ -95,6 +95,10 @@
             "nullable": true,
             "readOnly": true
           },
+          "ipAddress": {
+            "type": "string",
+            "nullable": true
+          },
           "lastSeen": {
             "type": "string",
             "format": "date-time"
