@@ -1,5 +1,6 @@
 
 <img width="1536" height="1024" alt="SMS_Icon Fait Par IA" src="https://github.com/user-attachments/assets/672cdaf5-682c-49d4-b38d-84c72afc18b4" />
+
 # Salad Monitoring System - Server
 
 ## About
